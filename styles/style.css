@@ -9,8 +9,6 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-
 .class-div-link {
   position: fixed;
   top: 0;
@@ -22,7 +20,6 @@ body {
   z-index: 1000;
 }
 
-
 .class-link {
   display: flex;
   justify-content: space-between;
@@ -31,7 +28,7 @@ body {
 
 .nav-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 0;
   padding: 0 20px;
 
   display: flex;
@@ -40,11 +37,9 @@ body {
   width: 100%;
 }
 
-
 .class-logo img {
   height: 40px;
 }
-
 
 .nav-container ul {
   display: flex;
@@ -64,8 +59,6 @@ body {
 .nav-container a:hover {
   color: var(--green);
 }
-
-
 
 .class-header {
   position: relative;
@@ -109,4 +102,83 @@ body {
   font-size: 20px;
   max-width: 700px;
   line-height: 1.5;
+}
+
+.class-feature {
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.class-feature p {
+  color: var(--text);
+}
+
+.class-feature h3 {
+  font-size: 25px;
+  color: var(--green);
+  margin: 10px 0;
+  position: relative;
+}
+.class-container-feature {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 30px;
+}
+main {
+  text-align: center;
+}
+main h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-decoration: underline var(--green);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+
+.class-feature img {
+  height: 60px;
+}
+
+.class-footer {
+  position: relative;
+  background: var(--green);
+  border: 20px solid white ;
+  color: var(--white);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 40px 60px;
+}
+.class-content-footer {
+  max-width: 500px;
+}
+.class-content-footer h3 {
+  font-size: 28px;
+  text-decoration: underline var(--white);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+.class-logo-flotante {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  transform: translate(-50%, -50%);
+}
+.class-image img {
+  width: 280px;
+}
+.class-items {
+  margin-bottom: 25px;
+  max-width: 350px;
+}
+.class-items h4 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight:300;
+}
+.class-items p {
+    font-size: 18px;
+    font-weight: 100;
 }
